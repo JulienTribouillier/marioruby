@@ -1,11 +1,9 @@
-list_email  =  []
+email  =  []
 num = 1
-x = 0
+a = 0
 50.times do
-    list_email << "julien.doe#{num}@email.com"
+    email << "julien.doe#{num}@email.com"
     num +=1
-end
-50.times do
-    puts list_email[x]
-    x += 1
+    puts email [a]
+    a += 1
 end
